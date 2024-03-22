@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family:Botthanie;
+    background-color: #f5f9fa;
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ff442b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #0d0f11;
+    color: #0b0910e7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    background-image: linear-gradient(to bottom, #5e6164, grey);
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .signup-option {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .signup-option p {
+    color: #666; 
+  }
+  
+  .signup-option a {
+    color: #007bff; 
+    text-decoration: none;
+  }
+  
+  .signup-option a:hover {
+    text-decoration: underline;
+}
