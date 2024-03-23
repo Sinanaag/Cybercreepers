@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header class="navigation-bar">
+        <a href=""><img src="logo.png" class="logo-image" alt="logo"></a>
+
+        <nav class="navigation-links">
+            <div class="main-links">
+                <a href="index.html" id="home-page">HOME</a>
+                <a href="card.html" id="products">PRODUCTS</a>
+                <a href="login.html" id="login-page">LOGIN</a>
+                <a href="signup.html" id="signup-page">SIGNUP</a>
+            </div>
+        </nav>
+    </header>
+  <div class="signup-box">
+    <h2>SIGN UP</h2>
+    <form id="signup">
+      <label for="first-name">First Name</label><br>
+      <input type="text" id="first-name" name="first-name" required><br>
+      <label for="last-name">Last Name</label><br>
+      <input type="text" id="last-name" name="last-name" required><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="password">Password</label><br>
+      <input type="password" id="password" name="password" required><br>
+      <label for="confirm-password">Confirm Password</label><br>
+      <input type="password" id="confirm-password" name="confirm-password" required><br>
+      <input type="submit" value="Submit"><br>
+    </form>
+    <p>By clicking the sign up button, you agree to our <br>
+      <a href="#">terms and conditions</a> and <a href="#">privacy policy</a>
+    </p>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+</body>
+</html>

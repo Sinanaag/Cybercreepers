@@ -12,10 +12,11 @@
 body{
     min-height: 100vh;
     background-color: #fbfbfb;
-    background-image:url(img1.jpg);
-    background-size:auto;
+    
+    background-size: auto;
     background-position: left top;
     background-repeat: no-repeat;
+
 }
 
 .navigation-bar{
@@ -54,34 +55,96 @@ body{
 }
 .text-box {
     background-color: rgba(128, 128, 128, 0.5);
-    padding: 20px;
+    padding: 10px;
     border-radius: 30px;
-    border: 1px solid black; /* Added border style */
+    border: 1px solid black; 
+    margin-right: 10px;
 }
 
 .text-box p {
-    margin: 10px; 
+    margin: 5px; 
     font-family: "Poppins", sans-serif; 
 }
 
 .text-box-container {
     position: absolute;
     top: 350px; 
-    left: 50%;
+    left: 49%;
     transform: translateY(-50%);
     margin-top: 0px;
 }
 h1 {
     position: absolute;
-    top: 125px; /* Adjust top position as needed */
-    right: 17%; /* Adjust left position as needed */
-    padding: 10px; /* Padding around the header */
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Bold font weight */
-    text-transform: uppercase; /* Convert text to uppercase */
-    border-radius: 0px; /* Rounded corners */
+    top: 125px; 
+    right: 17%; 
+    padding: 10px; 
+    font-size: 24px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 5px;
     
    
 }
+.logo-image{
+    height: 70px;
+    width: 150px;
+    margin-left: 40%;
+}
 
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+
+.card {
+    width: 250px; 
+    border: 1px solid #e5eaed;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e5eaed;
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+
+.description {
+    font-size: 14px;
+    color: #7f8c9b;
+    margin-bottom: 16px;
+}
+
+
+.card button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #c7e2ff;
+}
